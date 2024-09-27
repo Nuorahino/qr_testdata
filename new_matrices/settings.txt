@@ -1,0 +1,11 @@
+Additionally: "-msse -msse2 -mavx -O3"
+compile1: "-fno-trapping-math -fno-math-errno"
+compile2: "-fno-trapping-math -fno-math-errno -fno-builtin -fno-signed-zeroes"
+compile3: "-fno-trapping-math -fno-math-errno -fno-signed-zeroes"
+compile(f)4: "-fno-trapping-math -fno-math-errno -fno-builtin -fno-signed-zeroes"
+
+compile11: "-fno-trapping-math -fno-math-errno -fno-builtin -fno-signed-zeroes -msse -msse2 -mavx -O3"
+compile12: "-fno-trapping-math -fno-math-errno -fno-signed-zeroes -msse -msse2 -mavx -O3"
+compile13: "-fno-builtin -msse -msse2 -mavx -O3"
+compile14: "-fno-trapping-math -fno-math-errno -fno-signed-zeroes -O3"
+compile15: "-fno-trapping-math -fno-math-errno -fno-builtin -fno-signed-zeroes -msse -msse2 -mavx -O3"
